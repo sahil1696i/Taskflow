@@ -1,0 +1,16 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend",
+    "start": "NODE_ENV=production node backend/dist/index.js",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "test": "npm run test --workspace=backend"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
