@@ -65,7 +65,7 @@ export default function RegisterPage() {
               className="form-input"
               value={displayName}
               onChange={(e) => setDisplayName(e.target.value)}
-              placeholder="Jane Smith"
+              placeholder="Sahil Singh"
               required
               autoComplete="name"
             />
@@ -78,7 +78,7 @@ export default function RegisterPage() {
               className="form-input"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="you@example.com"
+              placeholder="sahil@example.com"
               required
               autoComplete="email"
             />
