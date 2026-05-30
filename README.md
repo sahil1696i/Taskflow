@@ -12,6 +12,7 @@ Key Features:-
 • Secure authentication using JWT and bcrypt
 
 Tech Stack:-
+
 Frontend: React, TypeScript, Vite  
 Backend: Node.js, Express, TypeScript  
 Database: PostgreSQL (Prisma ORM)  
